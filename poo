@@ -6,9 +6,9 @@ from banco import Banco
 
 if __name__ == '__main__':
     banco = Banco('UniBank', 'Rua General Castro 171', '1234')
-    cliente1 = Cliente('Fabricio', 'Dias', '154456987-09',banco)
+    cliente1 = Cliente('Mateus', 'Chagas', '959005948-69',banco)
     conta1 = Conta('1234', cliente1, 50)
-    cliente2 = Cliente('João','Victor','000123321-45',banco)
+    cliente2 = Cliente('alessandra','Ui','919049522-85',banco)
     conta2 = Conta('2345',cliente2,100)
 
     print(conta1.transfere_para(40,conta2))
